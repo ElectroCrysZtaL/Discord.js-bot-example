@@ -4,6 +4,8 @@ const Client = new Discord.Client();
 const fs = require('fs')
 const prefix = "!"
 
+const money = require('./money.json')
+
 client.on("ready", () => {
   console.log(`Bot is online!`)
   client.user.setActivity(`with ${client.guilds.size} servers!`);
@@ -29,6 +31,8 @@ if(command = "test") {
  message.reply("message")
 }
 
+
+  
   try {
     let cmdFile = require(`./commands/${command}.js`);
     cmdFile.run(client, message, args);
