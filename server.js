@@ -9,6 +9,16 @@ client.on("ready", () => {
   client.user.setActivity(`with ${client.guilds.size} servers!`);
 });
 
+fs.readdir("./commands/", (err, files) => {
+  if (err) return console.error(err);
+  files.forEach(file => {
+    let eventFunction = require(`./commands/${file}`);
+    let eventName = file.split(".")[0];
+    // super-secret recipe to call events with all their proper arguments *after* the `client` var.
+    client.on(eventName, (...args) => eventFunction.run(client, ...args));
+  });
+});
+
 client.on("message", async message => {
 
 if(message.author.bot) return;
