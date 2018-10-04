@@ -14,7 +14,6 @@ fs.readdir("./commands/", (err, files) => {
   files.forEach(file => {
     let eventFunction = require(`./commands/${file}`);
     let eventName = file.split(".")[0];
-    // super-secret recipe to call events with all their proper arguments *after* the `client` var.
     client.on(eventName, (...args) => eventFunction.run(client, ...args));
   });
 });
@@ -30,6 +29,12 @@ if(command = "test") {
  message.reply("message")
 }
 
+  try {
+    let commandFile = require(`./commands/${command}.js`);
+    commandFile.run(client, message, args);
+  } catch (err) {
+    console.error(err);
+  }
 
 });
 
