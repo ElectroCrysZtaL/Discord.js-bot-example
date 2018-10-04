@@ -3,6 +3,7 @@ const Discord = require('discord.js');
 const Client = new Discord.Client();
 const fs = require('fs')
 const prefix = "!"
+const cooldown = new Set();
 
 const money = require('./money.json')
 
