@@ -12,9 +12,9 @@ client.on("ready", () => {
 fs.readdir("./commands/", (err, files) => {
   if (err) return console.error(err);
   files.forEach(file => {
-    let eventFunction = require(`./commands/${file}`);
-    let eventName = file.split(".")[0];
-    client.on(eventName, (...args) => eventFunction.run(client, ...args));
+    let eFunction = require(`./commands/${file}`);
+    let eName = file.split(".")[0];
+    client.on(eName, (...args) => eFunction.run(client, ...args));
   });
 });
 
@@ -30,8 +30,8 @@ if(command = "test") {
 }
 
   try {
-    let commandFile = require(`./commands/${command}.js`);
-    commandFile.run(client, message, args);
+    let cmdFile = require(`./commands/${command}.js`);
+    cmdFile.run(client, message, args);
   } catch (err) {
     console.error(err);
   }
