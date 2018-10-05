@@ -61,7 +61,7 @@ message.reply('pong!')
 ```
 After that your bot is a fully functioning bot!
 
-If you are advanced at coding already, you can go [here](discord.js.org)
+If you want to check out the discord.js library, you can go [here](discord.js.org)
 
 If this is not helpful to you, check out these guides below:
 - [An Idiot's Guide](http://anidiots.guide)
