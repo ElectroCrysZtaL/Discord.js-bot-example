@@ -4,8 +4,7 @@ A simple bot example for discord.js beginners!
 You can send **issues** to us, if there is any problems with our code!
 We are not responsible if you **mess up** on your code, if it is an error, comment or send us an issue.
 
-Before you start anything, please setup your bot by following the steps below.
-=======================================================================
+## Before you start anything, please setup your bot by following the steps below.
 Before you start [setting up your bot user](Discord - Developer Documentation
 https://discordapp.com/developers/docs) by going to [this tutorial.](https://anidiots.guide/first-bot/your-first-bot)
 
