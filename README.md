@@ -81,6 +81,18 @@ Yeah we get it, "I WANT THE FULL CODE! I WANT THE FULL CODE!" But we cannot give
 You can send us the error at the [issues](https://github.com/ElectroCrysZtaL/Discord.js-bot-example/issues) page and we will try to fix the issue or error as soon as we can.
 
 > If you have an error on **Changing** the code, then we're not responsible on fixing the errors for you, you should fix the problem BY YOURSELF.
-
+### How do i make the bot always online?
+You will have to check [this page](http://anidiots.guide/other-guides/hosting-on-glitch) on how to do it.
+- Click here to proceed to [Glitch](glitch.com)
 ### I don't understand this example.
 - Check out [An Idiot's Guide](http://anidiots.guide) or [Discord.js Guide.](https://discordjs.guide)
+
+Sources
+=============================
+
+Source Name | Source links
+------------ | -------------
+An Idiot's Guide| http://anidiots.guide
+Discord.js Guide| http://discordjs.guide
+Discord.js| http://discord.js.org
+Glitch | http://glitch.com
