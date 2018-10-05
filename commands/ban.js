@@ -1,3 +1,5 @@
 exports.run = (message, client, args) => {
- // in development
+ // Your code
+ const member = message.mentions.members.first();
+ member.ban('reason');
 }
