@@ -67,4 +67,20 @@ If this is not helpful to you, check out these guides below:
 - [An Idiot's Guide](http://anidiots.guide)
 - [Discord.js Guide](https://discordjs.guide)
 
+Respitory Help
+==================================
+- This respitory will have issues and bugs, you can send us the issue and we will try to fix the issue.
+- Like we said, we are not responsible if you mess up on your code and we will not help you on your code.
 
+**Here are some common issues that people will ask:**
+
+### Some of the commands doesn't have the full code.
+Yes, we didn't want to provide the full code in some of the commands like [ban](https://github.com/ElectroCrysZtaL/Discord.js-bot-example/blob/master/commands/ban.js) and [kick.](https://github.com/ElectroCrysZtaL/Discord.js-bot-example/blob/master/commands/kick.js)
+Yeah we get it, "I WANT THE FULL CODE! I WANT THE FULL CODE!" But we cannot give you the fullcode because we want you to figure it out by yourself. You can look up the [discord.js library](discord.js.org) and you can find to make the full command.
+### There's an error on a command.
+You can send us the error at the [issues](https://github.com/ElectroCrysZtaL/Discord.js-bot-example/issues) page and we will try to fix the issue or error as soon as we can.
+
+> If you have an error on **Changing** the code, then we're not responsible on fixing the errors for you, you should fix the problem BY YOURSELF.
+
+### I don't understand this example.
+- Check out [An Idiot's Guide](http://anidiots.guide) or [Discord.js Guide.](https://discordjs.guide)
