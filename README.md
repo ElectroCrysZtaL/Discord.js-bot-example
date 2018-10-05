@@ -5,8 +5,7 @@ You can send **issues** to us, if there is any problems with our code!
 We are not responsible if you **mess up** on your code, if it is an error, comment or send us an issue.
 
 ## Before you start anything, please setup your bot by following the steps below.
-Before you start [setting up your bot user](https://discordapp.com/developers/docs)
-https://discordapp.com/developers/docs) by going to [this tutorial.](https://anidiots.guide/first-bot/your-first-bot)
+Before you start [setting up your bot user](https://discordapp.com/developers/docs) by going to [this tutorial.](https://anidiots.guide/first-bot/your-first-bot)
 
 - The first thing you gotta do is create a file named `index.js` or `server.js` or whatever name that ends with `.js` because we're using JavaScript to code our bot.
 - Then you're gotta open up **Command Prompt**(Or PowerShell, it depends on your version of Windows) on Windows or **Terminal** on Mac. By using `SHIFT+RightClick` in your folder, and select `Open command prompt here`
