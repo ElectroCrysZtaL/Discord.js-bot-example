@@ -96,3 +96,5 @@ An Idiot's Guide| http://anidiots.guide
 Discord.js Guide| http://discordjs.guide
 Discord.js| http://discord.js.org
 Glitch | http://glitch.com
+
+[citation needed](www.easybib.com)
