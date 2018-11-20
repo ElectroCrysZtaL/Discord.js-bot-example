@@ -14,7 +14,7 @@ client.on("ready", () => {
             name: 'Name',
             type: 'WATCHING' // PLAYING, WATCHING, LISTENING, STREAMING
         },
-        status: 'idle' // online, idle, dnd, invisible
+        status: 'online' // online, idle, dnd, invisible
     })
 })
 });
