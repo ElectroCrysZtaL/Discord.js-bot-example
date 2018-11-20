@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-
+// loads up the discord.js library
 const Client = new Discord.Client();
 const fs = require('fs')
 const prefix = "!"
@@ -18,7 +18,7 @@ client.on("ready", () => {
     })
 })
 });
-
+// command handler
 fs.readdir("./commands/", (err, files) => {
   if (err) return console.error(err);
   files.forEach(file => {
